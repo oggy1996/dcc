@@ -1,5 +1,5 @@
 import React from "react";
 
-export const H1Error = ({error}) => {
-  return <p>{error}</p>;
+export const H1Error = ({ error }) => {
+  return <p>{error.message}</p>;
 };

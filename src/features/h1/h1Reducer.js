@@ -22,6 +22,7 @@ export const applyH1Reducer = (state = h1InitialState, action) => {
     case SHOW_H1_ERROR:
       return {
         ...state,
+        isFetching: false,
         error: action.payload.error,
       };
 

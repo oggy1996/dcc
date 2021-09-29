@@ -6,7 +6,7 @@ const SIMULATED_DELAY_IN_MS = 3000;
 
 const getData = (url) => {
   const rand = generateRandomInteger(1, 100);
-  if (rand <= 95) {
+  if (rand <= 1) {
     return "hi I'm h1 title from api";
   } else {
     throw new Error("hi I'm h1 error from api");
